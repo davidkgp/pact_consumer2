@@ -21,6 +21,22 @@
                     }
                 }
             }
+        },
+        {
+            "description": "a student request from consumer2",
+            "request": {
+                "method": "GET",
+                "path": "/myapi/student/15"
+            },
+            "response": {
+                "status": 200,
+                "body": {
+                    "address": {
+                        "addressLine1": "1026YV",
+                        "addressLine2": "Arjenstraat"
+                    }
+                }
+            }
         }
     ],
     "metadata": {

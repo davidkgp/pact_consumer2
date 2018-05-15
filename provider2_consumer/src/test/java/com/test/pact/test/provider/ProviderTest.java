@@ -28,7 +28,7 @@ private int PORT = 8092;
     public RequestResponsePact  createPact(PactDslWithProvider builder) {
         Map<String, String> headers = new HashMap<String, String>();
         return builder
-                .uponReceiving("a student request")
+                .uponReceiving("a student request from consumer2")
                 .path("/myapi/student/15")
                 .method("GET")
                 .willRespondWith()
